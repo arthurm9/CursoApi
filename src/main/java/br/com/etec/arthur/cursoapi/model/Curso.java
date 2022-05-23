@@ -1,5 +1,11 @@
 package br.com.etec.arthur.cursoapi.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "curso")
+
 public class Curso {
     // criação das variáveis do banco de dados
 
