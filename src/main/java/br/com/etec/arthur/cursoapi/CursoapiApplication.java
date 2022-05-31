@@ -8,5 +8,7 @@ public class CursoapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CursoapiApplication.class, args);
+		System.out.println("Running...");
 	}
+
 }
